@@ -1,0 +1,185 @@
+html{
+    
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #7224ba;
+    scroll-behavior: smooth;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#riotforge{
+    scroll-margin-top: 55px;
+}
+
+#site{
+    scroll-margin-top: 55px; 
+}
+
+#vid{
+    scroll-margin-top: 55px;
+}
+
+#lore{
+    scroll-margin-top: 55px; 
+}
+
+#perso{
+    scroll-margin-top: 55px;
+}
+
+#mess{
+    scroll-margin-top: 55px;
+}
+
+.font-pxl{
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.navbar-brand{
+    color:  #8739cc;
+    text-shadow: 2px 2px 2px rgb(28, 27, 27);
+}
+
+
+.panels{
+
+    height: 100vh;
+    width: 98.93vw;
+    
+    display:flex;
+}
+
+.panel{
+
+    height: 100%;
+    flex:1;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition : flex 1.5s ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel:hover{
+    flex:5;
+}
+.panel:hover>.versionClassique{
+    opacity: 100%;
+    transition: opacity 3s;
+}
+
+.panel:hover>.versionCollector{
+    opacity: 100%;
+    transition: opacity 3s;
+}
+
+.classique{
+    background-image: url("../img/clapack.jpg");
+    
+
+}
+.collector{
+    background-image: url("../img/colpack.jpg");
+    
+}
+
+
+
+
+.versionClassique{
+    color: #8739cc;
+    font-weight: bolder;
+    font-size: 3em;
+    opacity: 0%;
+    transition: opacity 2s;
+    text-shadow: 2px 2px 2px rgb(28, 27, 27);
+}
+
+.versionCollector{
+    color: #ffd633;
+    font-weight: bolder;
+    font-size: 3em;
+    opacity: 0%;
+    transition: opacity 2s;
+    text-shadow: 2px 2px 2px rgb(28, 27, 27);
+}
+
+.siteRiot a{
+    color:aliceblue;
+    margin-top: 3%;
+    font-family: 'Bakbak One', cursive;
+    font-size: 5rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 2px 2px 2px rgb(28, 27, 27);
+}
+
+
+
+.logoSite{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.titreTrailer1{
+    color: #4A235A;
+    margin-top: 5%;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    font-size: x-large;
+    text-shadow: 2px 2px 2px rgb(28, 27, 27);
+}
+
+.titreTrailer2{
+    color:#ffd633;
+    margin-top: 5%;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    text-shadow: 2px 2px 2px rgb(28, 27, 27);
+}
+
+.videoTrailer{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.histoireJeu{
+    margin-top: 9%;
+    margin-bottom: 9%;
+    font-size: 1.5rem;
+    color: azure;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(28, 27, 27);
+    background-image: url("../img/dos.png");
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+
+
+
