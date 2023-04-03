@@ -7,7 +7,7 @@ html{
 body{
     margin: 0;
     padding: 0;
-    background-color: #7224ba;
+    background-color: black;
     scroll-behavior: smooth;
 }
 
@@ -79,12 +79,12 @@ body{
 .panel:hover{
     flex:5;
 }
-.panel:hover>.versionClassique{
+.panel:hover>.achatCla{
     opacity: 100%;
     transition: opacity 3s;
 }
 
-.panel:hover>.versionCollector{
+.panel:hover>.achatCol{
     opacity: 100%;
     transition: opacity 3s;
 }
@@ -102,23 +102,36 @@ body{
 
 
 
-.versionClassique{
-    color: #8739cc;
+.achatCla{
     font-weight: bolder;
     font-size: 3em;
     opacity: 0%;
     transition: opacity 2s;
     text-shadow: 2px 2px 2px rgb(28, 27, 27);
+    
 }
 
-.versionCollector{
+.achatCla a{
+    text-decoration: none;
+    color: #8739cc;
+}
+
+.achatCol{
     color: #ffd633;
     font-weight: bolder;
     font-size: 3em;
     opacity: 0%;
     transition: opacity 2s;
     text-shadow: 2px 2px 2px rgb(28, 27, 27);
+    
 }
+
+.achatCol a{
+    text-decoration: none;
+    color:#ffd633
+}
+
+
 
 .siteRiot a{
     color:aliceblue;
@@ -131,6 +144,14 @@ body{
     text-shadow: 2px 2px 2px rgb(28, 27, 27);
 }
 
+
+h1{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    font-size: 4em;
+    font-family: 'Press Start 2P', cursive;
+}
 
 
 .logoSite{
@@ -170,7 +191,7 @@ body{
 
 .histoireJeu{
     padding-top: 9%;
-    padding-bottom: 9%;
+    padding-bottom: 20%;
     font-size: 1.5rem;
     color: azure;
     text-align: center;
@@ -181,12 +202,25 @@ body{
 
 }
 
+.violet{
+    background-color: #8739cc;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px rgb(28, 27, 27);
+}
+
+.jaune{
+    background-color:#ffd633;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px rgb(28, 27, 27);
+}
+
 .cartChamp{
     display: flex;
     justify-content: space-around;
 }
 
 .contact{
+    color: #8739cc;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;

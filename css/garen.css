@@ -1,0 +1,68 @@
+html{
+    
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-image: url("../img/fondG.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 0%;
+    padding-bottom: 1%;
+    
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-expand-lg{
+    background-color: #1E20C4;
+}
+.navbar-brand{
+    color:aliceblue;
+    text-shadow: 2px 2px 2px rgb(28, 27, 27);
+    
+}
+
+.font-pxl{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.titrePS{
+    color: aliceblue;
+    text-shadow: 2px 2px 2px rgb(28, 27, 27);
+    font-size: 5rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    
+     
+}
+
+h1{
+    color:aliceblue;
+    margin-top: 10%;
+    font-size: 4rem;
+}
+
+h2{
+    color: #1E20C4;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.loreS{
+    color:#1F618D;
+    margin-top: 2%;
+    font-size: 130%;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(28, 27, 27);
+}
